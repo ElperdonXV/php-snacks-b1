@@ -50,8 +50,8 @@
         ],
         [
             'id' => '404040',
-            'modello'=> 'Fiat',
-            'marca'=> 'Panda',
+            'modello'=> 'Panda',
+            'marca'=> 'Fiat',
             'colore' => 'Verde Acqua scolorito',
             'porte'=> 3,
             'km'=> 400000,
@@ -66,8 +66,8 @@
         ],
         [
             'id' => '505050',
-            'modello'=> 'Fiat',
-            'marca'=> 'Tipo',
+            'modello'=> 'Tipo',
+            'marca'=> 'Fiat',
             'colore' => '',
             'porte'=> 5,
             'km'=> 40000,
