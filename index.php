@@ -20,7 +20,10 @@
                     <span>Km percorsi: {{auto.km}}</span>
                     <span>Telaio n. {{auto.numtelaio}}</span>
                     <p>Descrizione: {{auto.descrizione}}</p>
-                    <h3>Prezzo: {{auto.prezzo}}€</h3>
+                    <span>Stato: <strong>{{auto.stato}}</strong></span>
+                    <div class="card-footer">
+                        <h3>Prezzo: {{auto.prezzo}}€</h3>
+                    </div>
                 </div>
             </div>
         </div>
