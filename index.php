@@ -11,6 +11,15 @@
 </head>
 <body>
     <main id="app">
+        <form action="http://localhost:88/php-snacks-b1/index.php" method="GET">
+            <label for="stato">Stato:</label>
+            <select name="stato" id="stato" v-model="filter.stato" @change="getAuto">
+                <option value="all">all</option>
+                <option value="ottime">ottime</option>
+                <option value="buono">buono</option>
+                <option value="indistruttibile">indistruttibile</option>
+            </select>
+        </form>
         <div class="container p-5">
             <div class="row row-col-3 g-3">
                 <div v-for="auto in autousate" class="col-3 m-3 p-3 text-center card">
