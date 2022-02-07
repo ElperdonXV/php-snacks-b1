@@ -19,6 +19,13 @@
                 <option value="buono">buono</option>
                 <option value="indistruttibile">indistruttibile</option>
             </select>
+            <label for="marca">Marca:</label>
+            <select name="marca" id="marca" v-model="filter.marca" @change="getAuto">
+                <option value="all">all</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Citroen">Citroen</option>
+                <option value="Alfa Romeo">Alfa Romeo</option>
+            </select>
         </form>
         <div class="container p-5">
             <div class="row row-col-3 g-3">

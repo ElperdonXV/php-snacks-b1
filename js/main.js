@@ -4,6 +4,7 @@ const app = new Vue({
         autousate: [],
         filter: {
             stato: 'all',
+            marca: 'all',
         },
     },
     created() {
@@ -13,6 +14,7 @@ const app = new Vue({
         getAuto(){
             const params = {
                 stato: this.filter.stato,
+                marca: this.filter.marca,
             };
             axios.get('http://localhost:88/php-snacks-b1/server/controller.php', { params })
             .then((result) => {
